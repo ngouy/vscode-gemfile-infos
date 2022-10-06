@@ -22,10 +22,6 @@
 		"workspaceContains:Gemfile.lock"
 	],
 	"main": "./out/src/extension",
-	"scripts": {
-		"vscode:prepublish": "tsc -p ./",
-		"compile": "tsc -watch -p ./"
-	},
 	"devDependencies": {
 		"@types/mocha": "^7.0.2",
 		"@types/node": "^13.9.1",
@@ -38,10 +34,7 @@
 		"gemfile": "^1.1.0"
 	},
 	"__metadata": {
-		"id": "63cce059-9b09-4959-bba8-01be8a606850",
-		"publisherId": "dc9ef235-7858-406c-bf43-8902f94b0a63",
-		"publisherDisplayName": "周鹏",
-		"targetPlatform": "undefined",
+		"publisherDisplayName": "ngouy",
 		"isApplicationScoped": false,
 		"updated": true,
 		"isPreReleaseVersion": false,
