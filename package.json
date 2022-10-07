@@ -2,7 +2,7 @@
 	"name": "vscode-gemfile-infos",
 	"displayName": "vscode-gemfile-infos",
 	"description": "Provide useful information on 'hover' of a gem in your Gemfile",
-	"version": "0.5.3",
+	"version": "0.5.4",
 	"publisher": "ngouy",
 	"engines": {
 		"vscode": "^1.43.0"
