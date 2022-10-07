@@ -4,15 +4,15 @@ Provide useful information on 'hover' of a gem in your Gemfile.
 
 This is a fork of [bung87/vscode-gemfile](https://github.com/bung87/vscode-gemfile)
 
-![preview](https://github.com/ngouy/vscode-gemfile-infos/blob/main/preview.jpg)
+![preview](https://github.com/ngouy/vscode-gemfile-infos/blob/main/preview.png)
 
 ## Release Notes
 
 
 ### 0.5.2
-
 Initial release.
-
+### 0.5.3
+Fix preview
 -----------------------------------------------------------------------------------------------------------
 
 ## Plan
