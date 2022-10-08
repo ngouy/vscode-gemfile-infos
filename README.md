@@ -9,15 +9,22 @@ This is a fork of [bung87/vscode-gemfile](https://github.com/bung87/vscode-gemfi
 ## Release Notes
 
 
-### 0.5.4
+### 0.5.2
 Initial release.
 ### 0.5.3
 Fix preview
+
+### 0.5.5
+- Refactor the engine (ts + eslint + better structure overall)
+- Add custom settings to hide or show each line
+- proper cache refresh when updating a gem version
 -----------------------------------------------------------------------------------------------------------
 
 ## Plan
-- [ ] re-write the main engine (for code readability and maintainability)
-- [ ] Being able to have setting for parts to display (or not)
+- [x] re-write the main engine (for code readability and maintainability)
+- [x] Being able to have setting for parts to display (or not)
+- [ ] introduce new links
+- [ ] ability to pick order
 
 ### Contribute
 

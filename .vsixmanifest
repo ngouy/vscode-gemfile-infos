@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="vscode-gemfile-infos" Version="0.5.4" Publisher="ngouy"/>
+    <Identity Language="en-US" Id="vscode-gemfile-infos" Version="0.5.5" Publisher="ngouy"/>
     <DisplayName>vscode-gemfile</DisplayName>
     <Description xml:space="preserve">provide hover link in Gemfile refers to online site</Description>
     <Tags></Tags>

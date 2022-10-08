@@ -2,7 +2,7 @@
 	"name": "vscode-gemfile-infos",
 	"displayName": "vscode-gemfile-infos",
 	"description": "Provide useful information on 'hover' of a gem in your Gemfile",
-	"version": "0.5.4",
+	"version": "0.5.5",
 	"publisher": "ngouy",
 	"engines": {
 		"vscode": "^1.43.0"
@@ -22,12 +22,20 @@
 		"workspaceContains:Gemfile.lock"
 	],
 	"main": "./out/src/extension",
+	"scripts": {
+			"vscode:prepublish": "tsc"
+	},
 	"devDependencies": {
 		"@types/mocha": "^7.0.2",
 		"@types/node": "^13.9.1",
 		"@types/vscode": "^1.43.0",
+		"@typescript-eslint/eslint-plugin": "^5.39.0",
+		"@typescript-eslint/parser": "^5.39.0",
+		"eslint": "^8.24.0",
+		"eslint-config-xo": "^0.42.0",
+		"eslint-config-xo-typescript": "^0.53.0",
 		"mocha": "^2.3.3",
-		"typescript": "^3.8.3",
+		"typescript": "^4.8.4",
 		"vscode-test": "^1.3.0"
 	},
 	"dependencies": {
@@ -38,6 +46,45 @@
 		"isApplicationScoped": false,
 		"updated": true,
 		"isPreReleaseVersion": false,
-		"preRelease": false
+		"preRelease": false,
+		"id": "6f742ed1-f17f-41ce-bb45-b06ce1379727",
+		"publisherId": "2ba64e94-2454-49da-9c5b-49bad3be8feb"
+	},
+	"contributes": {
+		"configuration": {
+			"title": "Gemfile Infos",
+			"properties": {
+				"vscodeGemfileInfo.showCurrentVersion": {
+					"type": "boolean",
+					"default": true,
+					"description": "On hover, show installed version."
+				},
+				"vscodeGemfileInfo.showLastUpdate": {
+					"type": "boolean",
+					"default": true,
+					"description": "On hover, show last available version."
+				},
+				"vscodeGemfileInfo.showPackageManagerLink": {
+					"type": "boolean",
+					"default": true,
+					"description": "On hover, show to the current package manager (eg RubyGem)."
+				},
+				"vscodeGemfileInfo.showChangelogLink": {
+					"type": "boolean",
+					"default": true,
+					"description": "On hover, show changelog link."
+				},
+				"vscodeGemfileInfo.showHomepageLink": {
+					"type": "boolean",
+					"default": true,
+					"description": "On hover, show homepage link."
+				},
+				"vscodeGemfileInfo.showRepoLink": {
+					"type": "boolean",
+					"default": true,
+					"description": "On hover, show code repository link."
+				}
+			}
+		}
 	}
 }
