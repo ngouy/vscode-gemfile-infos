@@ -7,17 +7,20 @@ This is a fork of [bung87/vscode-gemfile](https://github.com/bung87/vscode-gemfi
 ![preview](https://raw.githubusercontent.com/ngouy/vscode-gemfile-infos/main/preview.png)
 
 ## Release Notes
-
-
-### 0.5.2
-Initial release.
-### 0.5.3
-Fix preview
-
+### 0.5.7
+- Update Tags (marketplace "SEO")
+### 0.5.6
+- Update preview
 ### 0.5.5
 - Refactor the engine (ts + eslint + better structure overall)
 - Add custom settings to hide or show each line
 - proper cache refresh when updating a gem version
+### 0.5.3
+Fix preview
+### 0.5.2
+Initial release.
+
+
 -----------------------------------------------------------------------------------------------------------
 
 ## Plan
